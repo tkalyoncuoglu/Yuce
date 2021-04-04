@@ -1,1 +1,1 @@
-Database first approach kullandım. Veritabanı EF projesi içerisinde "Film.mdf" tir. SQL Express'e ekleyip kaldırınız.
+Database first approach kullandım. Veritabanı EF projesi içerisinde App_Data folder içerisinde. Sql Server LocalDB 2019 kullanıyor. Web.config ve EF/App.config içerisindeki connection stringler projenin açıldığı yere göre güncellenmeli.
