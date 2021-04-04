@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="927afd7608f4434ea42e443804b29af2" Name="Diagram1">
+        <EntityTypeShape EntityType="FilmModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FilmModel.Film" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="FilmModel.Comment" Width="3.625" PointX="5.875" PointY="4.125" />
+        <AssociationConnector Association="FilmModel.FK_Film_Comment" />
+        <AssociationConnector Association="FilmModel.FK_User_Comment" />
+        <EntityTypeShape EntityType="FilmModel.Point" Width="1.5" PointX="5.625" PointY="0.75" />
+        <AssociationConnector Association="FilmModel.FK_Film_Point" />
+        <AssociationConnector Association="FilmModel.FK_User_Point" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
